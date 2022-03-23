@@ -10,13 +10,9 @@ def file_start(path :str,start:str):
     :return: list of files
     """
 
-<<<<<<< HEAD
+
     list_of_files = os.listdir(path) # get the list of the files in the directory
     starts_files = [file for file in list_of_files if file.startswith(start)] # get the list of the files that start with start
-=======
-    list_of_files = os.listdir(path)  # get the list of the files in the directory
-    starts_files = [f for f in list_of_files if f.startswith(start)] # get the list of the files that start with start
->>>>>>> 94c4a663d55bac3d77548b93a2ecd32048e05822
     return starts_files
 
 def main():
