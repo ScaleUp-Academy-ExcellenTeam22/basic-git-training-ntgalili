@@ -10,7 +10,7 @@ def file_start(path :str,start:str):
     :return: list of files
     """
 
-    list_of_files = os.listdir(path) # get the list of the files in the directory
+    list_of_files = os.listdir(path)  # get the list of the files in the directory
     starts_files = [f for f in list_of_files if f.startswith(start)] # get the list of the files that start with start
     return starts_files
 
